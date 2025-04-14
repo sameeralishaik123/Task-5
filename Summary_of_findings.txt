@@ -1,0 +1,46 @@
+Titanic Dataset: Exploratory Data Analysis
+
+Objective:To extract insights about the survival of passengers using visual and statistical analysis.
+
+Dataset Overview:
+- Total Records: 891
+- Features include: Age, Sex, Pclass, Fare, Embarked, etc.
+- Missing data handled in 'Age' and 'Embarked'.
+
+
+Key Insights from the Data:
+
+1. Gender (Sex):
+- Females had a much higher survival rate than males.
+- Survival was strongly influenced by gender, supporting the "women and children first" policy.
+
+2. Passenger Class (Pclass):
+- 1st class passengers had the highest chance of survival, followed by 2nd class.
+- 3rd class passengers had the lowest survival rate.
+- There is a clear relationship between class and survival, indicating socioeconomic advantage.
+
+3. Age:
+- Younger passengers were more likely to survive.
+- Most passengers were aged between 20–40 years.
+- Children had relatively better survival chances.
+
+4. Fare:
+- Passengers who paid higher fares had a better chance of survival.
+- This suggests passengers in more expensive (higher-class) cabins were prioritized during evacuation.
+
+5. Correlation Analysis:
+- Survival is positively correlated with Fare and Sex.
+- Survival is negatively correlated with Pclass.
+- These are important features for building predictive models.
+
+Additional Observations:
+- Several outliers are present in Fare and Age columns.
+- Most passengers boarded from Southampton, but survival rates were slightly higher for passengers from Cherbourg.
+
+Conclusion:
+Survival on the Titanic was influenced by:
+- Gender (Females were more likely to survive)
+- Passenger Class (1st class had the best survival rate)
+- Age (Younger passengers had better survival odds)
+- Fare (Higher fare correlated with higher survival)
+
